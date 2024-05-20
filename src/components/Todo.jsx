@@ -38,9 +38,11 @@ const Todo = () => {
   return (
     <div>
       <button onClick={addTodo}>Add New to do</button>
-      {todoItems.map((item) => (
-        <TodoItem key={item.id} {...item} />
-      ))}
+      <div className="space-y-2 space-x-2">
+        {todoItems.map((item) => (
+          <TodoItem key={item.id} {...item} />
+        ))}
+      </div>
     </div>
   );
 };
