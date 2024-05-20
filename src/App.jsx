@@ -1,12 +1,30 @@
-import Header from "./components/Header";
-import HeaderWithButton from "./components/HeaderWithButton";
+import Todo from "./components/Todo";
 
 const App = () => {
+  // const [title, setTitle] = useState("I am a header");
+
+  // const updateTitle = () => {
+  //   const n = Math.random();
+  //   setTitle(n);
+  // };
+
   return (
-    <>
-      <HeaderWithButton />
+    <div>
+      {/* <button onClick={updateTitle}>Update Title</button>
+      <Header title={title} />
       <Header title={"I am another header"} />
-    </>
+      <Header title={"I am another header"} />
+      <Header title={"I am another header"} />
+      <Header title={"I am another header"} />
+      <Header title={"I am another header"} />
+      <Header title={"I am another header"} />
+      <Header title={"I am another header"} />
+      <Header title={"I am another header"} />
+      <Header title={"I am another header"} />
+      <Header title={"I am another header"} />
+      <Header title={"I am another header"} /> */}
+      <Todo />
+    </div>
   );
 };
 
