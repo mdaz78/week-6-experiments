@@ -1,9 +1,10 @@
 import Header from "./components/Header";
+import HeaderWithButton from "./components/HeaderWithButton";
 
 const App = () => {
   return (
     <>
-      <Header title={"I am a header"} />
+      <HeaderWithButton />
       <Header title={"I am another header"} />
     </>
   );
