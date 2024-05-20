@@ -1,4 +1,4 @@
-import Todo from "./components/Todo";
+import SingleTodo from "./components/SingleTodo";
 
 const App = () => {
   // const [title, setTitle] = useState("I am a header");
@@ -23,7 +23,8 @@ const App = () => {
       <Header title={"I am another header"} />
       <Header title={"I am another header"} />
       <Header title={"I am another header"} /> */}
-      <Todo />
+      {/* <Todo /> */}
+      <SingleTodo />
     </div>
   );
 };
