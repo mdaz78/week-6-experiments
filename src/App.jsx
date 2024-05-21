@@ -1,4 +1,4 @@
-import UseRefExample from "./components/UseRefExample";
+import CustomHookExample from "./components/CustomHook";
 
 const App = () => {
   // const [title, setTitle] = useState("I am a header");
@@ -27,7 +27,8 @@ const App = () => {
       {/* <SingleTodo /> */}
       {/* <MemoExample /> */}
       {/* <UseCallbackExample /> */}
-      <UseRefExample />
+      {/* <UseRefExample /> */}
+      <CustomHookExample />
     </div>
   );
 };
