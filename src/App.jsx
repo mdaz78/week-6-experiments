@@ -1,3 +1,5 @@
+import UseRefExample from "./components/UseRefExample";
+
 const App = () => {
   // const [title, setTitle] = useState("I am a header");
 
@@ -25,6 +27,7 @@ const App = () => {
       {/* <SingleTodo /> */}
       {/* <MemoExample /> */}
       {/* <UseCallbackExample /> */}
+      <UseRefExample />
     </div>
   );
 };
